@@ -24,12 +24,18 @@ provide("memberList", reactive(memberList));
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
+    <h1>Vue Routerサンプル</h1>
   </header>
-
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style scoped>
+main {
+  border: blue 1px solid;
+  padding: 10px;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;
