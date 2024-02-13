@@ -4,7 +4,12 @@ import HelloWorld from './components/HelloWorld.vue'
 import {reactive, provide} from "vue";
 import type {Member} from "@/interfaces";
 
-
+const memberList = new Map<number, Member>();
+memberList.set(33456, {id: 33456, name: "田中太郎", email: "bow@example.com", pints: 35,
+note: "初回入会特典あり。"});
+memberList.set(47783, {id: 47783, name: "田中太郎２", email: "bow2@example.com", pints: 53,
+});
+provide("memberList", reactive(memberList));
 </script>
 
 <template>
