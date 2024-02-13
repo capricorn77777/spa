@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import {reactive, provide} from "vue";
+import type {Member} from "@/interfaces";
+
+
 </script>
 
 <template>
