@@ -11,7 +11,7 @@ const routeSettings: RouteRecordRaw[] = [
   },
   {
     path: "/member/memberList",
-    name: "memberList",
+    name: "MemberList",
     component: () => {
       return import("@/views/member/MemberList.vue");
     }

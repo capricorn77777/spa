@@ -14,12 +14,6 @@ provide("memberList", reactive(memberList));
 
 <template>
   <header>
-      <p>
-        <RouterLink v-bind:to="{name: 'MemberList'}">
-          会員管理はこちら
-        </RouterLink>
-      </p>
-    </div>
     <h1>Vue Routerサンプル</h1>
   </header>
   <main>
