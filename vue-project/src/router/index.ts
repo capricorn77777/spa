@@ -9,6 +9,13 @@ const routeSettings: RouteRecordRaw[] = [
     name: "AppTop",
     component: AppTop
   },
+  {
+    path: "/member/memberList",
+    name: "memberList",
+    component: () => {
+      return import("@/views/member/MemberList.vue");
+    }
+  },
 ];
 
 const router = createRouter({
