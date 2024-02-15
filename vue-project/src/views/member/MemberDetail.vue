@@ -1,5 +1,6 @@
 <template>
     <h1>会員管理</h1>
+    <p>hello</p>
     <nav id="breadcrumbs">
         <ul>
             <li>

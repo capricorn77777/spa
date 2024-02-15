@@ -2,7 +2,8 @@
 import {inject} from "vue";
 import {RouterLink} from "vue-router";
 import type {Member} from "@/interfaces";
-const memberList = inject("memberlist") as Map<number, Member>;
+
+const memberList = inject("memberList") as Map<number, Member>;
 
 </script>
 <template>
@@ -24,7 +25,7 @@ const memberList = inject("memberlist") as Map<number, Member>;
                 <li
                     v-for="[id, member] in memberList"
                     v-bind:key="id">
-                    <RouterLink v-bind:to="{name: 'MemberDeetail', paramas: {id: id}}">
+                    <RouterLink v-bind:to="{name: 'MemberDetail', params: {id: id}}">
                         IDが{{ id }}の{{ member.name }}さん
                     </RouterLink>
                 </li>

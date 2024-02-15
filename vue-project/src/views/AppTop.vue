@@ -8,7 +8,7 @@ import {RouterLink} from "vue-router";
             <li>TOP</li>
         </ul>
     </nav>
-    <p>hello</p>
+    
     <section>
         <p>
             <RouterLink v-bind:to="{name: 'MemberList'}">
