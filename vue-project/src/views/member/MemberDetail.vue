@@ -1,6 +1,5 @@
 <template>
     <h1>会員管理</h1>
-    <p>hello</p>
     <nav id="breadcrumbs">
         <ul>
             <li>
@@ -18,6 +17,6 @@
     </nav>
 
     <section>
-        <h2>会員詳細情報はこちら</h2>    
+        <h2>会員詳細情報</h2>    
     </section>
 </template>
